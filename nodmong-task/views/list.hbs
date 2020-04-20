@@ -1,0 +1,21 @@
+<h1>User Database</h1>
+
+<table>
+  <tr>
+  <th>Name</th>
+  <th>Email</th>
+  <th>PhoneNumber</th>
+  </tr>
+
+  {{#each data}}
+  <tr>
+  <td>{{this.Name}}</td>
+  <td>{{this.EmailId}}</td>
+  <td>{{this.Phone}}</td>
+  </tr>
+  {{/each}}
+</table>
+
+<p>
+  (it is logging in console) the above space is proof that it knows the number of data
+</p>

@@ -1,0 +1,8 @@
+/BE-Task/node_modules
+/express/node_modules
+/Express-practice/node_modules
+/fruits/node_modules
+/nodemongo/node_modules
+/nodemong-task/node_modules
+/REST/node_modules
+/urlshort/node_modules

@@ -1,0 +1,21 @@
+<h1>Courses</h1>
+
+<table>
+  <tr>
+  <th>Name</th>
+  <th>Duration</th>
+  <th>Fee</th>
+  </tr>
+
+  {{#each data}}
+  <tr>
+  <td>{{this.courseName}}</td>
+  <td>{{this.courseDuration}}</td>
+  <td>{{this.courseFee}}</td>
+  </tr>
+  {{/each}}
+</table>
+
+<p>
+  (it is logging in console) the above space is proof that it knows the number of data
+</p>
