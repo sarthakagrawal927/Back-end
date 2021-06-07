@@ -1,3 +1,0 @@
-/ngrok.exe
-
-/node_modules
