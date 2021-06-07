@@ -1,0 +1,36 @@
+type Query {
+  players: [Player!]!
+  games: [Game!]!
+  player: Player!
+  game: Game!
+}
+
+type Mutation {
+  addGame(name: String!, tags: [String!], maxPoints: Int): Game!
+  addPlayer(
+    name: String!
+    emailId: String!
+    tags: [String!]
+    points: Int
+  ): Player!
+}
+
+type Player {
+  id: ID!
+  name: String!
+  emailId: String!
+  purchasedGames: [Game!]!
+  clearedGames: [Game!]!
+  friends: [Player!]!
+  points: Int!
+  tags: [String!]!
+}
+
+type Game {
+  id: ID!
+  name: String!
+  prequels: [Game!]
+  sequels: [Game!]
+  maxPoints: Int!
+  tags: [String!]
+}

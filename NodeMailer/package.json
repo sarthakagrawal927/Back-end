@@ -1,0 +1,21 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarthak",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.6",
+    "json": "^9.0.6",
+    "mongoose": "^5.9.25",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4"
+  }
+}
